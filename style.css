@@ -1,0 +1,13 @@
+body {
+    font-size: 40pt;
+    background-color: white;
+    color: black;
+    font-family: calibri;
+    text-align: center;
+    max-width: 100%;
+    padding: 5%;
+}
+
+.links {
+    text-align: left;
+}
