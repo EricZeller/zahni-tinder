@@ -9,6 +9,7 @@ body {
     position: relative;
     height: max-content;
     width: auto;
+    min-height: 100%;
 }
 
 .links {
