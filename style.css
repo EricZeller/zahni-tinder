@@ -1,13 +1,43 @@
 body {
+    margin: auto;
     font-size: 40pt;
     background-color: white;
     color: black;
     font-family: calibri;
     text-align: center;
-    max-width: 100%;
     padding: 5%;
+    position: relative;
+    height: max-content;
+    width: auto;
 }
 
 .links {
     text-align: left;
+}
+
+.spacearound{
+    justify-content: space-around;
+}
+
+.icon{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 90%;
+  position: absolute;
+  margin: 5%;
+}
+
+#x{
+    height: 150px;
+    margin: 5%;
+    position: absolute;
+    bottom: 0px; 
+    left: 20%;
+}
+
+#heart{
+    height: 150px;
+    margin: 5%;
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
 }
